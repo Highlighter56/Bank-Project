@@ -1,0 +1,63 @@
+
+Legistics
+     ArrayList to hold the Accounts - can be sorted through admins
+     Printing out all the options{
+        This could be optimized for me through a list loop maybe, but I think it will be 
+        easier to just print it out}
+     Waiting for valid input {
+        Instead of making it so you have a bunch of loops, take in an array with each possible 
+        option at each spot. Then have this seperate method handle looping until an answer is 
+        givin. Once it is, return it and allow the code to progress}
+     Save All acounts + details to a txt file, this would allow you to, essential, save progress 
+     0 = go back / leave
+     Tracking Location / Knowing what to print
+        To keep track of what options should be displaied to the user, I plan to have a set of enums
+      
+
+List of Actions
+     V3: Customer VS Admin
+        Customer - normal action
+        Admin - could view any account, sort, organize, do anything
+
+     Make an account
+        username, password
+            ask if they would like to add an initial balance
+     Log in to existing account
+        get balance
+        deposite
+        withdraw 
+        close account - the account get closed and they lose their money - need admin?
+        Log out
+        Leave Current Account
+    Leave/Finish
+
+Goals
+V1: Basic Functionality
+    Add and remove money from an account
+
+V2: Add Personality
+    Make a bank that the user can chose to go to:
+        If they choose to NOT go, the program ends - for now
+        If they choose to go to the bank:
+            Options: Create account, add/remove money, leave
+
+V3: Now we have Something
+    Main Menu Prompt: Login to Exisiting Account, Crate a new Account, Leave
+        Login: 
+            They can interact with there account, then can backup and
+            will return to the main menu
+        New Account:
+            They can go through the process to create a basic account
+        If player has multiple accounts, allow for transfer of funds from the
+        current account, to another one of theres
+
+V4: Cool
+    Add Admin
+
+V5: We Out Here Drippin
+    implement txt files to store data for accounts, allowing you to save
+    progress when the code stops running, and then continue right where you
+    left off before
+
+V6: Jesus Who
+    Make it an Idle game
