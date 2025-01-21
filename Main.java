@@ -40,10 +40,10 @@ public class Main {
         int action = 0;
         String input;
         char responce = ' ';
-        boolean loop1=false;
         enum Menus {
             MAIN_MENU, DEPOSITE, WITHDRAW, BALANCE, LEAVE
         }
+        boolean loop1=false;
         boolean loop2=false;
         Account account = new Account("MyAccount", "Password");
         
